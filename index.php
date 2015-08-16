@@ -1,7 +1,7 @@
 
 <?php
 
-include_once('top.html');
+include_once("top.html");
 
 //copy above the input
 $copy_above_form = "<p>Websites have two kinds of visitors. Humans like you and me and robots crawling the site to help us humans find what we are looking for.</p>
@@ -48,6 +48,6 @@ else{
 
 }
 
-include_once('footer.html');
+include_once("footer.html");
 
 ?>
