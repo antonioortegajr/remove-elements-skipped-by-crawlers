@@ -1,0 +1,10 @@
+body {
+    margin: auto;
+    width: 60%;
+}
+#id {
+  align="right";
+}
+#readme {
+  align="left";
+}
