@@ -30,7 +30,7 @@ if($url != NULL){
   $replacements[2] = "<br>frameset contents not indexed as part of this site<br>";
   $replacements[3] = "<br>object contents not indexed as part of this site<br>";
   $replacements[4] = "<br>embed contents not indexed as part of this site<br>";
-  //fond and replace all above elements
+  //find and replace all above elements
   $data = preg_replace($patterns, $replacements, $data);
   //show message and render edited html
   echo "Below is this page ".$url. " seen through robot eyes<br><hr>";
