@@ -17,7 +17,7 @@ if($url != NULL){
   $data = curl_exec($ch);
   curl_close($ch);
 
-  //find the elemnts skipped by crawlwers in the returned html
+  //find the elements skipped by crawlwers in the returned html
   $patterns = $patterns = array();
   $patterns[0] = "/<iframe(.*)<\/iframe>/U";
   $patterns[1] = "/<script(.*)<\/script>/U";
