@@ -44,9 +44,8 @@ else{
           See pages more like a robot does: <input id="url-in" type="text" name="f" placeholder="Enter a page"><br>
           <input id="sub" type="submit">
         </form>';
+        include_once("html/footer.html");
 
 }
-
-include_once("html/footer.html");
 
 ?>
