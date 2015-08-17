@@ -1,8 +1,6 @@
 
 <?php
 
-include_once("html/top.html");
-
 //copy above the input
 $copy_above_form = "<p>Websites have two kinds of visitors. Humans like you and me and robots crawling the site to help us humans find what we are looking for.</p>
 <p>The goal of this page is to illiastrate the differences between how humans see web pages and how a bot would \"see\" the same page.</p>";
@@ -39,6 +37,7 @@ if($url != NULL){
   var_dump($data);
 }
 else{
+  include_once("html/top.html");
   echo $copy_above_form;
   //form to enter url
   echo '<form action="" method="post">
