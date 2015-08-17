@@ -8,3 +8,16 @@ body {
 #readme {
   align="left";
 }
+#re{
+  width:40%;
+}
+#url-in{
+  height: 40px;
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+#sub{
+  width: 200;
+  font-size: large;
+}
