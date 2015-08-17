@@ -19,7 +19,7 @@ if($url != NULL){
 
   //find the elemnts skipped by crawlwers in the returned html
   $patterns = $patterns = array();
-  $patterns[0] = "/<iframe(.*)<\/iframe>/U";
+  $patterns[0] = "/(&lt;iframe(.*)&lt;/iframe&gt;)|(<iframe(.*)<\/iframe>)/U";
   $patterns[1] = "/<script(.*)<\/script>/U";
   $patterns[2] = "/<frameset(.*)<\/frameset>/U";
   $patterns[3] = "/<object(.*)<\/object>/U";
