@@ -8,6 +8,6 @@ Elements such as iframe, frameset, object, and embed have the content they conta
 
 This idea of this visual representation was to add the "blindness" crawlers have to certain elements on a webpage. These elements like iframes are perfectly visible to humans, but crawler bots really are only seeing a tag and a source url.
 
-Javascript is partially run and somewhat indexed by modern crawlers. This is still not the same as various other elements such as <h1> or <a> tags.
+Javascript is partially run and somewhat indexed by modern crawlers. This is still not the same as various other elements such as h1 or anchor tags.
 
 The various element source urls are seen by crawler bots, but all that really does is tell the bot the content is elsewhere. Thus this project just acknowledges that a frame or embed was there.
