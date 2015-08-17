@@ -42,8 +42,8 @@ else{
   echo $copy_above_form;
   //form to enter url
   echo '<form action="" method="post">
-          See pages more like a robot does: <input type="text" name="f" placeholder="Enter a property search results page"><br>
-          <input type="submit">
+          See pages more like a robot does: <input id="url-in" type="text" name="f" placeholder="Enter a property search results page"><br>
+          <input id="sub" type="submit">
         </form>';
 
 }
