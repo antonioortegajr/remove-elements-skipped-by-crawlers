@@ -8,6 +8,11 @@ $copy_above_form = "<p>Websites have two kinds of visitors. Humans like you and 
 //url to cURL
 $url = htmlspecialchars($_POST["f"]);
 
+//look for indicator of ajax-crawling
+if (str_contains($url, "!#") !=== FALSE){
+  $url = str_replace("!#", "?_escaped_fragment_=", $url);
+}
+
 $out = NULL;
 if($url != NULL){
   //cURL the provided url if a url was provided
