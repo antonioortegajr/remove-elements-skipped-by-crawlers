@@ -17,7 +17,8 @@ function str_contains($haystack, $needle, $ignoreCase = false) {
     $needlePos = strpos($haystack, $needle);
     return ($needlePos === false ? false : ($needlePos+1));
 }
-
+//check to see if the page is using ajax or javascript crawling like WIX sites
+//Google's explanation here: https://developers.google.com/webmasters/ajax-crawling/
 if (str_contains($url, '#!')) {
     $url = str_replace("#!", "?_escaped_fragment_=", $url);
 };
