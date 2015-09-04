@@ -11,3 +11,5 @@ This idea of this visual representation was to add the "blindness" crawlers have
 Javascript is partially run and somewhat indexed by modern crawlers. This is still not the same as various other elements such as h1 or anchor tags.
 
 The various element source urls are seen by crawler bots, but all that really does is tell the bot the content is elsewhere. Thus this project just acknowledges that a frame or embed was there.
+
+Live example: http://robot-eyes.heroku.com/
